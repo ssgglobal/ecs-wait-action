@@ -5,11 +5,14 @@
   "author": "oryan@moshe.ai",
   "license": "ISC",
   "dependencies": {
-    "@actions/core": "^1.2.3",
-    "@actions/github": "^2.1.1",
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^2.2.0",
     "aws-sdk": "^2.632.0"
   },
   "devDependencies": {
-    "@zeit/ncc": "^0.21.1"
+    "@vercel/ncc": "^0.38.0"
+  },
+  "scripts": {
+    "build": "ncc build src/index.js -o dist"
   }
 }
