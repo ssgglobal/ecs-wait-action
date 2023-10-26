@@ -55,7 +55,7 @@ How many retries happened until success.
 ### Using all available options
 
 ```yaml
-uses: oryanmoshe/ecs-wait-action@v1.3
+uses: ssgglobal/ecs-wait-action@v1.4
 with:
   aws-access-key-id: AKIAIOSFODNN7EXAMPLE
   aws-secret-access-key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
@@ -69,7 +69,7 @@ with:
 ### Minimal configuration
 
 ```yaml
-uses: oryanmoshe/ecs-wait-action@v1.3
+uses: ssgglobal/ecs-wait-action@v1.4
 with:
   ecs-cluster: my-ecs-cluster
   ecs-services: '["my-ecs-service-1", "my-ecs-service-2"]'
